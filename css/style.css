@@ -1,0 +1,43 @@
+p{
+  color: blue;
+  font-family: Dialog;
+  font-size: 18px;
+}
+button{
+  color: black;
+  padding: 20px;
+  text-align: left;
+  font-size: 25px;
+  background-color: red;
+  border:0;
+  margin:20px;
+}
+td,th{
+  border: 2px dotted black;
+  font-family: "DejaVu Sans";
+  text-align: left;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+table{
+  width: 60%;
+  border-collapse: collapse;
+  margin: 10px;
+  background-color: palegreen;
+}
+ul{
+  color: blue;
+  text-align: left;
+  font-family: Chilanka;
+  font-size: 20px;
+}
+ol{
+  background-color: maroon;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: Laksaman;
+
+
+}

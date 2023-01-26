@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    label{
+      font-family: Chilanka;
+      color: darkblue;
+      margin: 5px;
+      font-size: 30px;
+    }
+    input{
+      padding: 10px;
+      font-family: Chilanka;
+      font-size: 20px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="iframe.html" method="get">
+  <label for="First Name">Full Names</label>
+  <input type="text"id="First Name" placeholder="Enter your name"><br>
+  <label for="Email">EmailAddress</label>
+  <input type="email"id="email"  placeholder="Enter your email Address"><br>
+  <label for="phoneno">Phone Number</label>
+  <input type="text"id="phoneno"  placeholder="Phone number"><br>
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob"  placeholder="Date of Birth"><br>
+  <label for="male">Male</label>
+  <input type="radio"id="male" name="gender"><br>
+  <label for="female">Female</label>
+  <input type="radio"id="female" name="gender"><br>
+  <label for="course">Course Taken</label>
+  <select name="course" id="course">
+    <option value="java script">Java Script</option>
+    <option value="python">Python</option>
+    <option value="oracle">Oracle</option>
+    <option value="andriod">Android</option>
+    <option value="full stack development">Full Stack Development</option>
+    <br>
+  </select>
+  <br>
+  <label for="image">Upload picture</label>
+  <input type="file"id="image"><br>
+  <label for="password">Password</label>
+  <input type="password" id="password" name=""><br>
+  <input type="submit" value="Register Here!!!"><br>
+</form>
+<button type="button"onclick="alert('Safari Lab Morning Class')" >Bonyeza</button>
+</body>
+</html>
